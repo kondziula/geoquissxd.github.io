@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz kontaktowy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="globus.png">
+</head>
+<body>
+    <header>
+        <h1>Formularz kontaktowy</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Strona Główna</a></li>
+                <li><a href="quiz1.html">Quiz 1: Europa</a></li>
+                <li><a href="quiz2.html">Quiz 2: Azja</a></li>
+                <li><a href="quiz3.html">Quiz 3: Afryka</a></li>
+                <li><a href="formularz.html">Formularz</a></li>
+            </ul>
+            <button id="przelacz-motyw" aria-label="Przełącz motyw">🌙</button>
+        </nav>
+    </header>
+    <main>
+        <section class="formularz-sekcja">
+            <h2>Wyślij swoje dane</h2>
+            <form id="zaawansowany-formularz">
+                <div class="form-group">
+                    <label for="imie">Imię:</label>
+                    <input type="text" id="imie" name="imie" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="wiek">Wiek:</label>
+                    <input type="number" id="wiek" name="wiek" min="1" max="120" required>
+                </div>
+                <div class="form-group">
+                    <label>Płeć:</label>
+                    <label><input type="radio" name="plec" value="Kobieta" required> Kobieta</label>
+                    <label><input type="radio" name="plec" value="Mężczyzna"> Mężczyzna</label>
+                    <label><input type="radio" name="plec" value="Inna"> Inna</label>
+                </div>
+                <div class="form-group">
+                    <label for="kontynent">Ulubiony kontynent:</label>
+                    <select id="kontynent" name="kontynent" required>
+                        <option value="">Wybierz...</option>
+                        <option>Europa</option>
+                        <option>Azja</option>
+                        <option>Afryka</option>
+                        <option>Ameryka Północna</option>
+                        <option>Ameryka Południowa</option>
+                        <option>Australia</option>
+                        <option>Antarktyda</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="wiadomosc">Wiadomość:</label>
+                    <textarea id="wiadomosc" name="wiadomosc" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label><input type="checkbox" name="zgoda" required> Akceptuję regulamin</label>
+                </div>
+                <button type="submit">Wyślij</button>
+            </form>
+            <div id="wynik-formularza"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Mateusz i Kordian</p>
+    </footer>
+    <script src="skrypty.js"></script>
+</body>
+</html>
