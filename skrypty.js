@@ -18,25 +18,25 @@ document.addEventListener("DOMContentLoaded", () => {
     // --- Quiz ---
     const daneQuizu = {
         europa: [
-            { flaga: "Europa/polska.png", odpowiedzi: ["Polska", "San Marino", "Chorwacja", "Monako"], poprawna: "Polska" },
-            { flaga: "Europa/niemcy.png", odpowiedzi: ["Finlandia", "Niemcy", "Szwecja", "Norwegia"], poprawna: "Niemcy" },
-            { flaga: "Europa/francja.png", odpowiedzi: ["Czechy", "Słowacja", "Białoruś", "Francja"], poprawna: "Francja" },
-            { flaga: "Europa/wlochy.png", odpowiedzi: ["Hiszpania", "Włochy", "Bułgaria", "Grecja"], poprawna: "Włochy" },
-            { flaga: "Europa/andora.png", odpowiedzi: ["Zjednoczone Liechtensztaje", "Rumunia", "Andora", "Mołdawia"], poprawna: "Andora" },
+            { flaga: "polska.png", odpowiedzi: ["Polska", "San Marino", "Chorwacja", "Monako"], poprawna: "Polska" },
+            { flaga: "niemcy.png", odpowiedzi: ["Finlandia", "Niemcy", "Szwecja", "Norwegia"], poprawna: "Niemcy" },
+            { flaga: "francja.png", odpowiedzi: ["Czechy", "Słowacja", "Białoruś", "Francja"], poprawna: "Francja" },
+            { flaga: "wlochy.png", odpowiedzi: ["Hiszpania", "Włochy", "Bułgaria", "Grecja"], poprawna: "Włochy" },
+            { flaga: "andora.png", odpowiedzi: ["Zjednoczone Liechtensztaje", "Rumunia", "Andora", "Mołdawia"], poprawna: "Andora" },
         ],
         azja: [
-            { flaga: "Azja/japonia.png", odpowiedzi: ["Indie", "Japonia", "Korea Południowa", "Chiny"], poprawna: "Japonia" },
-            { flaga: "Azja/chiny.png", odpowiedzi: ["Chiny", "Japonia", "Wietnam", "Tajlandia"], poprawna: "Chiny" },
-            { flaga: "Azja/indie.png", odpowiedzi: ["Pakistan", "Bangladesz", "Indie", "Nepal"], poprawna: "Indie" },
-            { flaga: "Azja/korea_poludniowa.png", odpowiedzi: ["Korea Południowa", "Korea Północna", "Japonia", "Chiny"], poprawna: "Korea Południowa" },
-            { flaga: "Azja/tajlandia.png", odpowiedzi: ["Laos", "Wietnam", "Kambodża", "Tajlandia"], poprawna: "Tajlandia" },
+            { flaga: "japonia.png", odpowiedzi: ["Indie", "Japonia", "Korea Południowa", "Chiny"], poprawna: "Japonia" },
+            { flaga: "chiny.png", odpowiedzi: ["Chiny", "Japonia", "Wietnam", "Tajlandia"], poprawna: "Chiny" },
+            { flaga: "indie.png", odpowiedzi: ["Pakistan", "Bangladesz", "Indie", "Nepal"], poprawna: "Indie" },
+            { flaga: "korea_poludniowa.png", odpowiedzi: ["Korea Południowa", "Korea Północna", "Japonia", "Chiny"], poprawna: "Korea Południowa" },
+            { flaga: "tajlandia.png", odpowiedzi: ["Laos", "Wietnam", "Kambodża", "Tajlandia"], poprawna: "Tajlandia" },
         ],
         afryka: [
-            { flaga: "Afryka/egipt.png", odpowiedzi: ["Algieria", "Egipt", "Maroko", "Tunezja"], poprawna: "Egipt" },
-            { flaga: "Afryka/RPA.png", odpowiedzi: ["RPA", "Nigeria", "Kenia", "Ghana"], poprawna: "RPA" },
-            { flaga: "Afryka/nigeria.png", odpowiedzi: ["Senegal", "Kamerun", "Ghana", "Nigeria"], poprawna: "Nigeria" },
-            { flaga: "Afryka/maroko.png", odpowiedzi: ["Maroko", "Algieria", "Tunezja", "Egipt"], poprawna: "Maroko" },
-            { flaga: "Afryka/kenia.png", odpowiedzi: ["Uganda", "Tanzania", "Kenia", "Rwanda"], poprawna: "Kenia" },
+            { flaga: "egipt.png", odpowiedzi: ["Algieria", "Egipt", "Maroko", "Tunezja"], poprawna: "Egipt" },
+            { flaga: "RPA.png", odpowiedzi: ["RPA", "Nigeria", "Kenia", "Ghana"], poprawna: "RPA" },
+            { flaga: "nigeria.png", odpowiedzi: ["Senegal", "Kamerun", "Ghana", "Nigeria"], poprawna: "Nigeria" },
+            { flaga: "maroko.png", odpowiedzi: ["Maroko", "Algieria", "Tunezja", "Egipt"], poprawna: "Maroko" },
+            { flaga: "kenia.png", odpowiedzi: ["Uganda", "Tanzania", "Kenia", "Rwanda"], poprawna: "Kenia" },
         ],
     };
 
